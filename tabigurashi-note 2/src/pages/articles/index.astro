@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORIES } from '../../data/site';
+
+const all = (await getCollection('articles', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+const label = (id: string) => CATEGORIES.find((c) => c.id === id)?.label ?? '';
+const fmt = (d: Date) => d.toISOString().slice(0, 10).replaceAll('-', '.');
+---
+<Base title="記事一覧" description="たびぐらしノートの記事一覧です。">
+  <h1 class="sec-title hand">記事一覧</h1>
+  {all.length === 0 ? (
+    <div class="empty">記事を準備中です。</div>
+  ) : (
+    <div class="grid">
+      {all.map((a) => (
+        <div class="card" data-cat={a.data.category}>
+          <span class="tag">{label(a.data.category)}</span>
+          <h3><a href={`/articles/${a.slug}`}>{a.data.title}</a></h3>
+          <p class="meta">{fmt(a.data.publishedAt)} 公開</p>
+        </div>
+      ))}
+    </div>
+  )}
+  <script is:inline>
+    // /articles?c=prepare のように、カテゴリで絞り込み
+    var c = new URLSearchParams(location.search).get('c');
+    if (c) document.querySelectorAll('[data-cat]').forEach(function (el) {
+      if (el.getAttribute('data-cat') !== c) el.style.display = 'none';
+    });
+  </script>
+</Base>
