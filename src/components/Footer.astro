@@ -1,0 +1,20 @@
+---
+import { SITE } from '../data/site';
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="sns">
+      <a href={SITE.sns.x} rel="noopener" target="_blank">X</a>
+      <a href={SITE.sns.instagram} rel="noopener" target="_blank">Instagram</a>
+      <a href={SITE.sns.threads} rel="noopener" target="_blank">Threads</a>
+      <a href={SITE.sns.note} rel="noopener" target="_blank">note</a>
+    </p>
+    <p>
+      <a href="/about">運営者情報</a>
+      <a href="/contact">お問い合わせ</a>
+      <a href="/privacy">プライバシーポリシー・免責事項</a>
+    </p>
+    <p>© {year} {SITE.name}</p>
+  </div>
+</footer>

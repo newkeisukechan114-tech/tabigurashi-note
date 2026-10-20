@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <rect width="1024" height="1024" fill="#FAF7F2"/>
+  <!-- 墨のしずくの体 -->
+  <path d="M 512 170
+           C 560 270 600 300 680 360
+           C 790 440 820 560 800 650
+           C 775 770 660 840 512 840
+           C 364 840 249 770 224 650
+           C 204 560 234 440 344 360
+           C 424 300 464 270 512 170 Z" fill="#1D1D22"/>
+  <!-- つや -->
+  <path d="M 360 470 C 380 410 430 370 470 350" fill="none" stroke="#FAF7F2" stroke-width="22" stroke-linecap="round" opacity="0.22"/>
+  <!-- 目 -->
+  <circle cx="430" cy="560" r="46" fill="#FAF7F2"/>
+  <circle cx="594" cy="560" r="46" fill="#FAF7F2"/>
+  <circle cx="442" cy="566" r="22" fill="#1D1D22"/>
+  <circle cx="606" cy="566" r="22" fill="#1D1D22"/>
+  <!-- ほっぺ -->
+  <circle cx="362" cy="650" r="26" fill="#C8553D" opacity="0.85"/>
+  <circle cx="662" cy="650" r="26" fill="#C8553D" opacity="0.85"/>
+  <!-- 口 -->
+  <path d="M 478 656 Q 512 690 546 656" fill="none" stroke="#FAF7F2" stroke-width="12" stroke-linecap="round"/>
+  <!-- 旅のバンダナ -->
+  <path d="M 262 735 Q 512 800 762 735 L 745 790 Q 512 860 279 790 Z" fill="#1F6F6B"/>
+  <circle cx="512" cy="805" r="22" fill="#FAF7F2"/>
+  <!-- しずくの飛びはね -->
+  <circle cx="800" cy="260" r="20" fill="#1D1D22"/>
+  <circle cx="850" cy="320" r="11" fill="#1D1D22"/>
+</svg>
