@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://tabigurashi-note.com/sitemap-index.xml
