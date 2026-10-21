@@ -61,3 +61,8 @@ img { max-width: 100%; height: auto; }
 
 .site-footer { margin: 50px 0 30px; color: var(--sub); font-size: 13px; text-align: center; }
 .site-footer a { color: var(--sub); margin: 0 8px; }
+
+/* 記事内の写真：縦長でも大きくなりすぎないように */
+.post .body img, .post img:not(.author img) { display: block; margin: 1.2rem auto 0.3rem; max-height: 460px; width: auto; max-width: 100%; border-radius: 10px; }
+.post .author img { margin: 0; max-height: none; border-radius: 50%; }
+.post em.cap { display: block; text-align: center; font-style: normal; font-size: 0.85rem; color: #6b6b6b; margin-bottom: 1.2rem; }
