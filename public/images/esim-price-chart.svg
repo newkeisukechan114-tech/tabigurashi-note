@@ -1,43 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 410" role="img" aria-label="国ごとのeSIM料金（1日あたり）の横棒グラフ">
-<style>text{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic","Meiryo",sans-serif;fill:#2b2b2b}.sub{fill:#6b6b6b}</style>
-<rect width="420" height="410" fill="#ffffff"/>
-<text x="16" y="26" font-size="16" font-weight="700">1日あたりのeSIM料金（私の購入履歴）</text>
-<text x="16" y="45" font-size="12" class="sub">単位：円／1日。13円から385円まで、国で大きく違いました</text>
-<line x1="132" y1="52" x2="132" y2="352" stroke="#c9c2b6" stroke-width="1"/>
-<text x="124" y="72" font-size="14" text-anchor="end">ヨーロッパ</text>
-<rect x="132" y="58" width="6.8" height="18" rx="3" fill="#1f6f6b"/>
-<rect x="140.8" y="58" width="31.8" height="18" rx="3" fill="#a9cfcb"/>
-<text x="180.5" y="72" font-size="14" font-weight="700">13〜78円</text>
-<text x="124" y="102" font-size="14" text-anchor="end">アメリカ</text>
-<rect x="132" y="88" width="7.3" height="18" rx="3" fill="#1f6f6b"/>
-<text x="147.3" y="102" font-size="14" font-weight="700">14円</text>
-<text x="124" y="132" font-size="14" text-anchor="end">トルコ</text>
-<rect x="132" y="118" width="7.3" height="18" rx="3" fill="#1f6f6b"/>
-<text x="147.3" y="132" font-size="14" font-weight="700">14円</text>
-<text x="124" y="162" font-size="14" text-anchor="end">インド</text>
-<rect x="132" y="148" width="17.7" height="18" rx="3" fill="#1f6f6b"/>
-<text x="157.7" y="162" font-size="14" font-weight="700">34円</text>
-<text x="124" y="192" font-size="14" text-anchor="end">ジョージア</text>
-<rect x="132" y="178" width="41.6" height="18" rx="3" fill="#1f6f6b"/>
-<text x="181.6" y="192" font-size="14" font-weight="700">80円</text>
-<text x="124" y="222" font-size="14" text-anchor="end">中央アジア</text>
-<rect x="132" y="208" width="43.6" height="18" rx="3" fill="#1f6f6b"/>
-<text x="183.6" y="222" font-size="14" font-weight="700">84円</text>
-<text x="124" y="252" font-size="14" text-anchor="end">コーカサス3か国</text>
-<rect x="132" y="238" width="53.5" height="18" rx="3" fill="#1f6f6b"/>
-<rect x="187.5" y="238" width="73.3" height="18" rx="3" fill="#a9cfcb"/>
-<text x="268.8" y="252" font-size="14" font-weight="700">103〜248円</text>
-<text x="124" y="282" font-size="14" text-anchor="end">アゼルバイジャン</text>
-<rect x="132" y="268" width="56.1" height="18" rx="3" fill="#1f6f6b"/>
-<text x="196.1" y="282" font-size="14" font-weight="700">108円</text>
-<text x="124" y="312" font-size="14" text-anchor="end">ペルー</text>
-<rect x="132" y="298" width="56.6" height="18" rx="3" fill="#1f6f6b"/>
-<rect x="190.6" y="298" width="3.0" height="18" rx="3" fill="#a9cfcb"/>
-<text x="197.7" y="312" font-size="14" font-weight="700">109〜111円</text>
-<text x="124" y="342" font-size="14" text-anchor="end">南米6か国</text>
-<rect x="132" y="328" width="200.0" height="18" rx="3" fill="#1f6f6b"/>
-<text x="340.0" y="342" font-size="14" font-weight="700">385円</text>
-<rect x="16" y="372" width="14" height="10" rx="2" fill="#1f6f6b"/><text x="36" y="382" font-size="12" class="sub">最安</text>
-<rect x="76" y="372" width="14" height="10" rx="2" fill="#a9cfcb"/><text x="96" y="382" font-size="12" class="sub">最高まで（日によって変わった幅）</text>
-<text x="16" y="402" font-size="11" class="sub">※アメリカは0.5GB/日の料金。南米6か国は1GB/日だった可能性があります</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 500" role="img" aria-label="国ごとのeSIM料金（1日あたり）の横棒グラフ">
+<style>text{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic","Meiryo",sans-serif;fill:#2b2b2b}.sub{fill:#5f5f5f}</style>
+<rect width="340" height="500" fill="#ffffff"/>
+<text x="12" y="26" font-size="16" font-weight="700">1日あたりのeSIM料金</text>
+<text x="12" y="47" font-size="13" class="sub">私の購入履歴より（単位：円／1日）</text>
+<line x1="146" y1="58" x2="146" y2="396" stroke="#c9c2b6"/>
+<text x="138" y="81" font-size="16" text-anchor="end">ヨーロッパ</text>
+<rect x="146" y="64" width="4.1" height="22" rx="3" fill="#1f6f6b"/>
+<rect x="152.1" y="64" width="18.6" height="22" rx="3" fill="#a9cfcb"/>
+<text x="178.7" y="81" font-size="16" font-weight="700">13〜78円</text>
+<text x="138" y="115" font-size="16" text-anchor="end">アメリカ</text>
+<rect x="146" y="98" width="4.4" height="22" rx="3" fill="#1f6f6b"/>
+<text x="158.4" y="115" font-size="16" font-weight="700">14円</text>
+<text x="138" y="149" font-size="16" text-anchor="end">トルコ</text>
+<rect x="146" y="132" width="4.4" height="22" rx="3" fill="#1f6f6b"/>
+<text x="158.4" y="149" font-size="16" font-weight="700">14円</text>
+<text x="138" y="183" font-size="16" text-anchor="end">インド</text>
+<rect x="146" y="166" width="10.8" height="22" rx="3" fill="#1f6f6b"/>
+<text x="164.8" y="183" font-size="16" font-weight="700">34円</text>
+<text x="138" y="217" font-size="16" text-anchor="end">ジョージア</text>
+<rect x="146" y="200" width="25.4" height="22" rx="3" fill="#1f6f6b"/>
+<text x="179.4" y="217" font-size="16" font-weight="700">80円</text>
+<text x="138" y="251" font-size="16" text-anchor="end">中央アジア</text>
+<rect x="146" y="234" width="26.6" height="22" rx="3" fill="#1f6f6b"/>
+<text x="180.6" y="251" font-size="16" font-weight="700">84円</text>
+<text x="138" y="285" font-size="16" text-anchor="end">コーカサス3か国</text>
+<rect x="146" y="268" width="32.6" height="22" rx="3" fill="#1f6f6b"/>
+<rect x="180.6" y="268" width="43.9" height="22" rx="3" fill="#a9cfcb"/>
+<text x="232.6" y="285" font-size="16" font-weight="700">103〜248円</text>
+<text x="138" y="319" font-size="16" text-anchor="end">アゼルバイジャン</text>
+<rect x="146" y="302" width="34.2" height="22" rx="3" fill="#1f6f6b"/>
+<text x="188.2" y="319" font-size="16" font-weight="700">108円</text>
+<text x="138" y="353" font-size="16" text-anchor="end">ペルー</text>
+<rect x="146" y="336" width="34.5" height="22" rx="3" fill="#1f6f6b"/>
+<rect x="182.5" y="336" width="3.0" height="22" rx="3" fill="#a9cfcb"/>
+<text x="189.2" y="353" font-size="16" font-weight="700">109〜111円</text>
+<text x="138" y="387" font-size="16" text-anchor="end">南米6か国</text>
+<rect x="146" y="370" width="122.0" height="22" rx="3" fill="#1f6f6b"/>
+<text x="276.0" y="387" font-size="16" font-weight="700">385円</text>
+<rect x="12" y="414" width="16" height="12" rx="2" fill="#1f6f6b"/><text x="34" y="425" font-size="13" class="sub">最安</text>
+<rect x="76" y="414" width="16" height="12" rx="2" fill="#a9cfcb"/><text x="98" y="425" font-size="13" class="sub">最高まで（日によって変わった幅）</text>
+<text x="12" y="452" font-size="12" class="sub">※アメリカは0.5GB/日の料金です。</text>
+<text x="12" y="470" font-size="12" class="sub">※南米6か国は、1GB/日だった可能性があります。</text>
 </svg>
