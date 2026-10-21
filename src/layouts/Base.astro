@@ -11,7 +11,7 @@ interface Props {
   noindex?: boolean;
 }
 const { title, description = SITE.description, type = 'website', noindex = false } = Astro.props;
-const fullTitle = title ? `${title}｜${SITE.name}` : `${SITE.name}｜夫婦で世界一周20か国の旅と準備ノート`;
+const fullTitle = title ? `${title}｜${SITE.name}` : `${SITE.name}｜夫婦で世界一周20カ国の旅と準備ノート`;
 const canonical = new URL(Astro.url.pathname, SITE.url).href;
 const ogImage = new URL('/images/sumimaru.png', SITE.url).href;
 ---

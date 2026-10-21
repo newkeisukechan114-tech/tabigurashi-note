@@ -5,7 +5,7 @@ export const SITE = {
   author: 'すみまる',
   url: 'https://tabigurashi-note.com',
   description:
-    '夫婦で世界一周20か国。路上書道の体験と、海外に行く前の準備を、実際にやった人の言葉で記録しています。',
+    '夫婦で世界一周20カ国。路上書道の体験と、海外に行く前の準備を、実際にやった人の言葉で記録しています。',
   sns: {
     x: 'https://x.com/sumimaru_note',
     instagram: 'https://www.instagram.com/sumimaru_note',
