@@ -4,7 +4,7 @@ description: "InDrive（インドライブ）は、自分で値段を出して�
 category: prepare
 publishedAt: 2026-10-25
 pr: false
-draft: true
+draft: false
 ---
 
 海外のタクシーで、毎回ちょっと困るのが「値段」ではないでしょうか。いくらが普通なのか分からないまま、乗る前に交渉する。私も、そこが一番の悩みでした。
