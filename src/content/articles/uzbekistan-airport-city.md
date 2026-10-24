@@ -25,6 +25,9 @@ draft: false
 
 ウズベキスタンでは、Googleマップより、**Yandex Maps**のほうが、公共交通の検索がしやすいと聞きました。私も、Yandex Mapsを使いました。
 
+![スマホのホーム画面にある、Yandex Go（黄色いアイコン）とYandex Maps（赤いピンのアイコン）](/images/uzbek-yandex-icons.jpg)
+<em class="cap">左がタクシー用の「Yandex Go」、右が地図の「Yandex Maps」です。アプリストアで探すときの目印にしてください。</em>
+
 ![Yandex Mapsの画面。画面の下に、Navigator、Transport、Rideのボタンが並んでいる](/images/uzbek-yandex-maps.jpg)
 <em class="cap">Yandex Mapsの画面です（これは日本で撮った画面なので、地図は東京の秋葉原です）。画面の下に「Transport」のボタンがあり、ここから公共交通を調べます。</em>
 
