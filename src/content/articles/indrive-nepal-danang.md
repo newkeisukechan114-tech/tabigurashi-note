@@ -2,7 +2,7 @@
 title: "InDrive（インドライブ）の使い方｜ネパール・カトマンズで実際に払った料金を公開【2026年1月】"
 description: "InDrive（インドライブ）は、自分で値段を出して、ドライバーの返答から選べる配車アプリです。2026年1月にネパールのカトマンズで4回使い、払った料金と距離を公開します。ダナンでは、Uberと比べて安く感じました。"
 category: prepare
-publishedAt: 2026-10-24
+publishedAt: 2026-10-26
 pr: false
 draft: true
 ---
