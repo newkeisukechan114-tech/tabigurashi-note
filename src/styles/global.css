@@ -74,12 +74,15 @@ img { max-width: 100%; height: auto; }
 .svc dt { font-size: 12px; font-weight: 700; color: var(--sub); margin-top: 10px; }
 .svc dd { margin: 2px 0 0; font-size: 14px; line-height: 1.7; }
 
-/* カテゴリ別の色 */
-[data-cat="trip"] { --cat: #1f6f6b; --cat-soft: #e4f1ef; }
-[data-cat="prepare"] { --cat: #c8553d; --cat-soft: #fbece8; }
-[data-cat="calligraphy"] { --cat: #3f4d8c; --cat-soft: #e9ecf8; }
-.card[data-cat] { border-top: 5px solid var(--cat); }
-.card[data-cat] .tag { background: var(--cat-soft); color: var(--cat); font-weight: 700; }
+/* カテゴリ別の色（サイト全体のやわらかい色合いに合わせた3色） */
+[data-cat="trip"] { --cat: #2e6f6a; --cat-soft: #e5f0ed; }
+[data-cat="prepare"] { --cat: #bf6a4b; --cat-soft: #f8ebe3; }
+[data-cat="calligraphy"] { --cat: #4b5278; --cat-soft: #e9ebf4; }
+.card[data-cat] { position: relative; overflow: hidden; transition: transform .15s ease, box-shadow .15s ease; }
+.card[data-cat]::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; background: var(--cat); }
+.card[data-cat]:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(60, 50, 30, .08); }
+.card[data-cat] .tag { background: var(--cat-soft); color: var(--cat); font-weight: 700; letter-spacing: .04em; }
+.card[data-cat] .tag::before { content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--cat); margin-right: 6px; vertical-align: 1px; }
 .card[data-cat] h3 a:hover { color: var(--cat); }
 .post[data-cat] h2 { background: var(--cat-soft); border-left-color: var(--cat); }
 .post[data-cat] a { color: var(--cat); }
