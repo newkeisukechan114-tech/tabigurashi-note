@@ -20,7 +20,7 @@ const fmt = (d: Date) => d.toISOString().slice(0, 10).replaceAll('-', '.');
   <h2 class="sec-title hand">テーマから探す</h2>
   <div class="grid">
     {CATEGORIES.map((c) => (
-      <div class="card"><span class="tag">{c.label}</span>
+      <div class="card" data-cat={c.id}><span class="tag">{c.label}</span>
         <h3><a href={`/articles?c=${c.id}`}>{c.label}の記事</a></h3>
       </div>
     ))}
