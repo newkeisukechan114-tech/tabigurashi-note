@@ -73,3 +73,13 @@ img { max-width: 100%; height: auto; }
 .svc dl { margin: 0; padding: 4px 14px 12px; }
 .svc dt { font-size: 12px; font-weight: 700; color: var(--sub); margin-top: 10px; }
 .svc dd { margin: 2px 0 0; font-size: 14px; line-height: 1.7; }
+
+/* カテゴリ別の色 */
+[data-cat="trip"] { --cat: #1f6f6b; --cat-soft: #e4f1ef; }
+[data-cat="prepare"] { --cat: #c8553d; --cat-soft: #fbece8; }
+[data-cat="calligraphy"] { --cat: #3f4d8c; --cat-soft: #e9ecf8; }
+.card[data-cat] { border-top: 5px solid var(--cat); }
+.card[data-cat] .tag { background: var(--cat-soft); color: var(--cat); font-weight: 700; }
+.card[data-cat] h3 a:hover { color: var(--cat); }
+.post[data-cat] h2 { background: var(--cat-soft); border-left-color: var(--cat); }
+.post[data-cat] a { color: var(--cat); }

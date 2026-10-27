@@ -28,7 +28,7 @@ const jsonLd = {
 <Base title={d.title} description={d.description} type="article">
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <p class="crumb"><a href="/">トップ</a> ＞ <a href={`/articles?c=${d.category}`}>{cat}</a></p>
-  <article class="post">
+  <article class="post" data-cat={d.category}>
     {d.pr && <PRNotice />}
     <h1 class="hand">{d.title}</h1>
     <p class="meta">公開：{fmt(d.publishedAt)}{d.updatedAt && `／更新：${fmt(d.updatedAt)}`}</p>
