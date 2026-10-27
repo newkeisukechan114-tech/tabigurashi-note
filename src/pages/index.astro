@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
-import { SITE, CATEGORIES, TOTAL_COUNTRIES } from '../data/site';
+import { SITE, CATEGORIES } from '../data/site';
 import CatSays from '../components/CatSays.astro';
 import DailyPhoto from '../components/DailyPhoto.astro';
 import Passport from '../components/Passport.astro';
@@ -21,12 +21,6 @@ const fmt = (d: Date) => d.toISOString().slice(0, 10).replaceAll('-', '.');
   </section>
 
   <CatSays />
-
-  <div class="stats">
-    <div><b>{TOTAL_COUNTRIES}</b><span>カ国</span></div>
-    <div><b>2025.8</b><span>出発</span></div>
-    <div><b>{all.length}</b><span>本の記事</span></div>
-  </div>
 
   <DailyPhoto />
 
