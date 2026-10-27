@@ -86,3 +86,7 @@ img { max-width: 100%; height: auto; }
 .card[data-cat] h3 a:hover { color: var(--cat); }
 .post[data-cat] h2 { background: var(--cat-soft); border-left-color: var(--cat); }
 .post[data-cat] a { color: var(--cat); }
+
+/* 見出しの帯は、3カテゴリの色を縦に並べて、特定のカテゴリと被らないようにする */
+.sec-title { border-left: none; position: relative; padding-left: 18px; }
+.sec-title::before { content: ""; position: absolute; left: 0; top: .12em; bottom: .12em; width: 6px; border-radius: 3px; background: linear-gradient(to bottom, #2e6f6a 0 33.3%, #bf6a4b 33.3% 66.6%, #4b5278 66.6% 100%); }
