@@ -24,6 +24,7 @@ const jsonLd = {
   publisher: { '@type': 'Organization', name: SITE.name },
   mainEntityOfPage: `${SITE.url}/articles/${entry.slug}`,
 };
+import ReadStamp from '../../components/ReadStamp.astro';
 ---
 <Base title={d.title} description={d.description} type="article">
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
@@ -33,6 +34,7 @@ const jsonLd = {
     <h1 class="hand">{d.title}</h1>
     <p class="meta">公開：{fmt(d.publishedAt)}{d.updatedAt && `／更新：${fmt(d.updatedAt)}`}</p>
     <Content />
+    <ReadStamp />
     <div class="author">
       <img src="/images/sumimaru.png" alt="すみまるのイラスト" width="56" height="56" />
       <div><b>この記事を書いた人：{SITE.author}</b><br />

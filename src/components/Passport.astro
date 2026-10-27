@@ -1,0 +1,20 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { COUNTRIES, TOTAL_COUNTRIES } from '../data/site';
+interface Props { articles: CollectionEntry<'articles'>[]; }
+const { articles } = Astro.props;
+const bySlug = new Map(articles.map((a) => [a.slug, a]));
+const stamps = COUNTRIES.map((c, i) => {
+  const a = bySlug.get(c.slug);
+  return { ...c, on: !!a, cat: a?.data.category ?? 'trip', tilt: [-4, 3, -2, 5, -5, 2, -3, 4, -1, 3][i % 10] };
+});
+const lit = stamps.filter((s) => s.on).length;
+---
+<div class="passport">
+  {stamps.map((s) => s.on ? (
+    <a class="stamp on" data-cat={s.cat} href={`/articles/${s.slug}`} style={`--tilt:${s.tilt}deg`}>{s.name}</a>
+  ) : (
+    <span class="stamp off" style={`--tilt:${s.tilt}deg`}>？</span>
+  ))}
+</div>
+<p class="meta">20カ国のうち、記事に出てきた国は{lit}カ国です。記事が増えるたびに、スタンプが押されます。</p>

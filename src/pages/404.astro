@@ -2,6 +2,10 @@
 import Base from '../layouts/Base.astro';
 ---
 <Base title="ページが見つかりません" noindex>
-  <div class="post"><h1 class="hand">ページが見つかりません</h1>
-  <p><a href="/">トップページへ戻る</a></p></div>
+  <div class="post lost">
+    <img src="/favicon-192.png" alt="迷子になった猫のすみまる" width="120" height="120" />
+    <h1 class="hand">道に迷っちゃった…</h1>
+    <p>探しているページは、見つかりませんでした。猫のすみまるも、迷子です。</p>
+    <p><a class="btn" href="/">トップページへ戻る</a>　<a href="/articles">記事一覧を見る</a></p>
+  </div>
 </Base>

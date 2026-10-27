@@ -1,0 +1,19 @@
+---
+---
+<div class="read-stamp">
+  <button type="button" id="read-btn" class="mini-btn">🐾 読んだよ！</button>
+  <p id="read-msg" class="meta" aria-live="polite"></p>
+</div>
+<script is:inline>
+  (function () {
+    var b = document.getElementById('read-btn'), m = document.getElementById('read-msg');
+    if (!b || !m) return;
+    var key = 'read:' + location.pathname, done = false;
+    try { done = localStorage.getItem(key) === '1'; } catch (e) {}
+    function show() { b.classList.add('done'); b.textContent = '🐾 ありがとう！'; m.textContent = '最後まで読んでくれて、ありがとう。猫も、よろこんでいます。'; }
+    if (done) show();
+    b.addEventListener('click', function () {
+      show(); try { localStorage.setItem(key, '1'); } catch (e) {}
+    });
+  })();
+</script>

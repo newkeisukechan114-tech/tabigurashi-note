@@ -1,0 +1,16 @@
+---
+import { DAILY_PHOTOS } from '../data/site';
+---
+<a class="daily" id="daily" href={`/articles/${DAILY_PHOTOS[0].slug}`}>
+  <img id="daily-img" src={DAILY_PHOTOS[0].img} alt={DAILY_PHOTOS[0].cap} loading="lazy" />
+  <span class="daily-cap"><b>今日の一枚</b><span id="daily-text">{DAILY_PHOTOS[0].cap}</span></span>
+</a>
+<script is:inline define:vars={{ photos: DAILY_PHOTOS }}>
+  (function () {
+    var d = new Date(), n = Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate())) / 86400000);
+    var p = photos[n % photos.length];
+    var a = document.getElementById('daily'), im = document.getElementById('daily-img'), tx = document.getElementById('daily-text');
+    if (!a || !im || !tx) return;
+    a.href = '/articles/' + p.slug; im.src = p.img; im.alt = p.cap; tx.textContent = p.cap;
+  })();
+</script>

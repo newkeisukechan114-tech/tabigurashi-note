@@ -1,0 +1,16 @@
+---
+import { CAT_SAYS } from '../data/site';
+---
+<div class="cat-says">
+  <img src="/favicon-192.png" alt="猫のすみまる" width="64" height="64" />
+  <div class="bubble"><p id="cat-text">{CAT_SAYS[0]}</p>
+    <button type="button" id="cat-more" class="mini-btn">もうひとこと</button></div>
+</div>
+<script is:inline define:vars={{ says: CAT_SAYS }}>
+  (function () {
+    var t = document.getElementById('cat-text'), b = document.getElementById('cat-more');
+    if (!t || !b) return;
+    var i = Math.floor(Math.random() * says.length); t.textContent = says[i];
+    b.addEventListener('click', function () { i = (i + 1) % says.length; t.textContent = says[i]; });
+  })();
+</script>

@@ -1,7 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
-import { SITE, CATEGORIES } from '../data/site';
+import { SITE, CATEGORIES, TOTAL_COUNTRIES } from '../data/site';
+import CatSays from '../components/CatSays.astro';
+import DailyPhoto from '../components/DailyPhoto.astro';
+import Passport from '../components/Passport.astro';
 
 const all = (await getCollection('articles', ({ data }) => !data.draft))
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
@@ -17,6 +20,16 @@ const fmt = (d: Date) => d.toISOString().slice(0, 10).replaceAll('-', '.');
     <a class="btn" href="/articles">記事一覧を見る</a>
   </section>
 
+  <CatSays />
+
+  <div class="stats">
+    <div><b>{TOTAL_COUNTRIES}</b><span>カ国</span></div>
+    <div><b>2025.8</b><span>出発</span></div>
+    <div><b>{all.length}</b><span>本の記事</span></div>
+  </div>
+
+  <DailyPhoto />
+
   <h2 class="sec-title hand">テーマから探す</h2>
   <div class="grid">
     {CATEGORIES.map((c) => (
@@ -25,6 +38,9 @@ const fmt = (d: Date) => d.toISOString().slice(0, 10).replaceAll('-', '.');
       </div>
     ))}
   </div>
+
+  <h2 class="sec-title hand">旅のスタンプ帳</h2>
+  <Passport articles={all} />
 
   <h2 class="sec-title hand">新着記事</h2>
   {latest.length === 0 ? (
