@@ -3,7 +3,7 @@ title: "海外eSIMは1日いくら？世界一周で買った料金を購入履�
 description: "世界一周20カ国で、海外eSIMを1日ごとに買い足した購入履歴から、国ごとの料金の差と、失敗しない選び方をまとめました。現地SIMとの比較や、日本の電話番号を残す方法も。"
 category: prepare
 publishedAt: 2026-10-21
-pr: false
+pr: true
 draft: false
 ---
 
@@ -73,9 +73,6 @@ Trip.comのアプリの購入履歴から、1日分の料金を拾いました�
 ![トリブバン空港のSIM売り場にあった、Ncellの旅行者向けプランの料金表](/images/nepal-sim-price.jpg)
 <em class="cap">空港の売り場の料金表。7日が595ルピー、14日が995ルピー、28日が1,995ルピー（ネパールルピー）と書かれていました。</em>
 
-![Ncellの、SIMカードの台紙を手に持っている様子（番号は隠しています）](/images/nepal-ncell-sim.jpg)
-<em class="cap">買ったNcellのSIM。番号は隠しています。</em>
-
 - **ボリビア：** 最初はeSIMを買っていましたが、現地SIMのほうが安かったので、途中で切り替えました。SIMは、普通の商店で買えます。スペイン語しか通じなかったので、翻訳アプリが必須でした。
 
 現地SIMは、安いことがある反面、言葉の壁や、お店を探す手間があります。SIMの設定は、お店の人がしてくれました。ボリビア以外は、英語が通じました。ボリビアはスペイン語だけでした。
@@ -102,7 +99,7 @@ Trip.comのアプリの購入履歴から、1日分の料金を拾いました�
 <div class="svc"><div class="svc-name">TORA eSIM</div><dl><dt>対応する国や地域</dt><dd>周遊プランは160カ国以上</dd><dt>返金とキャンセル</dt><dd>QRコードのメールを受け取る前なら、キャンセルできる。受け取った後は不可</dd><dt>サポート</dt><dd>LINEで日本語サポート</dd><dt>特徴</dt><dd>日本向けのeSIM（ドコモ回線、プリペイド）もある。延長はできない</dd></dl></div>
 <div class="svc"><div class="svc-name">trifa（トリファ）</div><dl><dt>対応する国や地域</dt><dd>200カ国以上</dd><dt>返金とキャンセル</dt><dd>原則、返金もキャンセルもできない（旅行の中止や急病でも）。プランは購入日から3か月有効で、未開通ならQRコードを再発行できる</dd><dt>サポート</dt><dd>24時間365日、日本語の有人チャット</dd><dt>特徴</dt><dd>アプリで、購入から設定まで進める。前払い式で、1GB〜無制限を1日単位で選べる</dd></dl></div>
 <div class="svc"><div class="svc-name">JAPAN&amp;GLOBAL eSIM</div><dl><dt>対応する国や地域</dt><dd>190以上</dd><dt>返金とキャンセル</dt><dd>原則、返金不可。QRコードの発行前ならキャンセルできる。「接続補償キャンペーン」（2026年12月31日まで、短期プランのみ、条件あり）で、つながらなかった場合は全額返金</dd><dt>サポート</dt><dd>日本語のチャットサポート</dd><dt>特徴</dt><dd>日本eSIMや、電話番号つきのプランもある</dd></dl></div>
-<div class="svc"><div class="svc-name">eSIM-san</div><dl><dt>対応する国や地域</dt><dd>200以上</dd><dt>返金とキャンセル</dt><dd>「使えなければ全額返金」。ただし、番号つきプラン、購入から30日以上、データを30%以上使った後の都合による返金などは対象外</dd><dt>サポート</dt><dd>LINEとメールの有人サポート（営業時間内）</dd><dt>特徴</dt><dd>アプリ不要。購入特典あり</dd></dl></div>
+<div class="svc"><div class="svc-name">eSIM-san</div><dl><dt>対応する国や地域</dt><dd>200以上</dd><dt>返金とキャンセル</dt><dd>「使えなければ全額返金」。ただし、番号つきプラン、購入から30日以上、データを30%以上使った後の都合による返金などは対象外</dd><dt>サポート</dt><dd>LINEとメールの有人サポート（営業時間内）</dd><dt>特徴</dt><dd>アプリ不要。購入特典あり</dd><dt>公式サイト</dt><dd><a href="https://px.a8.net/svt/ejp?a8mat=4BEQI6+FOEZ16+5YX8+BW8O2&a8ejpredirect=https%3A%2F%2Fesim-san.jp%2F" rel="nofollow sponsored">eSIM-sanの公式サイト</a><img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=4BEQI6+FOEZ16+5YX8+BW8O2" alt="">（PR）</dd></dl></div>
 </div>
 
 **見るときの注意**
@@ -119,6 +116,8 @@ Trip.comのアプリの購入履歴から、1日分の料金を拾いました�
 3. **日本語のサポートがあるか。** 現地で困ったとき、日本語でチャットできると心強いです。
 
 また、**使い方に合うか**も大切です。動画をよく見る人は、容量の大きいプランがあるか、確認してください。
+
+日本語のサポートを重視する人は、LINEで相談できるeSIM-sanも、公式サイトで条件を見てみてください（PR）。
 
 ## 出発前のチェックリスト
 
