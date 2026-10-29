@@ -122,10 +122,6 @@ img { max-width: 100%; height: auto; }
 @media (prefers-reduced-motion: reduce) { .lost img { animation: none; } .card[data-cat], .stamp.on { transition: none; } }
 
 /* ---- おみくじ・地図・足あとバー・猫のおまけ ---- */
-.omikuji-box { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 16px; text-align: center; }
-.omikuji-result p { margin: 0 0 8px; }
-.omikuji-rank { font-size: 22px; color: var(--accent); }
-.omikuji-result a.mini-btn { display: inline-block; text-decoration: none; }
 .travelmap { margin: 14px 0; }
 .travelmap svg { display: block; width: 100%; height: auto; background: #f4f0e6; border-radius: 14px; }
 .travelmap .land { fill: #e2dccb; stroke: #f4f0e6; stroke-width: .5; }
@@ -140,3 +136,10 @@ img { max-width: 100%; height: auto; }
 .cat-confetti { position: fixed; top: -30px; font-size: 24px; z-index: 99; pointer-events: none; animation: cat-fall 3s linear forwards; }
 @keyframes cat-fall { to { transform: translateY(110vh) rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .travelmap .visited { transition: none; } }
+
+/* 画面の下を歩く足あと */
+.paw-walk { position: fixed; left: 0; right: 0; bottom: 6px; height: 28px; z-index: 5; pointer-events: none; overflow: hidden; }
+.paw-walk span { position: absolute; bottom: 0; font-size: 16px; opacity: 0; transform: rotate(90deg); animation: paw-step 16s ease-in-out infinite; animation-delay: calc(var(--i) * .9s); left: calc(var(--i) * 6.2%); }
+.paw-walk span:nth-child(odd) { bottom: 10px; }
+@keyframes paw-step { 0%, 100% { opacity: 0; } 12%, 40% { opacity: .28; } 62% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .paw-walk { display: none; } }
