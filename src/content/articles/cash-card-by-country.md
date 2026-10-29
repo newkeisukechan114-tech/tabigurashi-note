@@ -131,5 +131,6 @@ draft: false
 
 ## 次に読む記事
 
+- [カード付帯の海外旅行保険が使えず自腹になった話](/articles/travel-insurance-card-kl)：持っていったカードの保険が、使えなかった体験です。
 - [InDriveの使い方](/articles/indrive-nepal-danang)：ネパールで、カードで払えた配車アプリです。
 - [海外eSIMは1日いくら？](/articles/esim-sekaiisshu)：旅の準備のうち、通信の話です。
