@@ -62,7 +62,7 @@ draft: false
 
 ## なぜ保険が使えなかったか
 
-持っていたのは、Amazon Mastercardに付いている、旅行安心プラン（海外旅行傷害保険）です。このカードの保険は、**旅費などをカードで払ったときに補償が始まる「利用付帯」**でした（[カード会社の案内](https://www.smbc-card.com/nyukai/pop/hoken_kaigai.jsp)）。
+持っていたのは、Amazon Mastercardに付いている、旅行安心プラン（海外旅行傷害保険）です。このカードの保険は、【旅費などをカードで払ったときに補償が始まる「利用付帯」】でした（[カード会社の案内](https://www.smbc-card.com/nyukai/pop/hoken_kaigai.jsp)）。
 
 私の流れは、こうでした。
 
