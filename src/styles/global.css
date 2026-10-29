@@ -120,3 +120,23 @@ img { max-width: 100%; height: auto; }
 .lost img { border-radius: 50%; animation: lost-wobble 3s ease-in-out infinite; }
 @keyframes lost-wobble { 0%, 100% { transform: rotate(-6deg); } 50% { transform: rotate(6deg); } }
 @media (prefers-reduced-motion: reduce) { .lost img { animation: none; } .card[data-cat], .stamp.on { transition: none; } }
+
+/* ---- おみくじ・地図・足あとバー・猫のおまけ ---- */
+.omikuji-box { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 16px; text-align: center; }
+.omikuji-result p { margin: 0 0 8px; }
+.omikuji-rank { font-size: 22px; color: var(--accent); }
+.omikuji-result a.mini-btn { display: inline-block; text-decoration: none; }
+.travelmap { margin: 14px 0; }
+.travelmap svg { display: block; width: 100%; height: auto; background: #f4f0e6; border-radius: 14px; }
+.travelmap .land { fill: #e2dccb; stroke: #f4f0e6; stroke-width: .5; }
+.travelmap .visited { fill: var(--accent); fill-opacity: .75; stroke: #fff; stroke-width: .6; cursor: pointer; transition: fill-opacity .15s ease; }
+.travelmap .visited:hover, .travelmap .visited:focus, .travelmap .visited.sel { fill-opacity: 1; outline: none; }
+.travelmap .visited.sel { stroke: #bf6a4b; stroke-width: 1.5; }
+.travelmap .paw { font-size: 9px; pointer-events: none; }
+.map-info { margin-top: 8px; background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; font-size: 14px; line-height: 1.7; }
+.paw-progress { position: fixed; top: 0; left: 0; right: 0; height: 18px; z-index: 60; pointer-events: none; }
+.paw-fill { width: 0; height: 18px; overflow: hidden; white-space: nowrap; font-size: 12px; line-height: 18px; letter-spacing: 2px; background: linear-gradient(rgba(255,255,255,.85), rgba(255,255,255,0)); }
+.cat-party-say { position: fixed; left: 50%; top: 80px; transform: translateX(-50%); background: #fff; border: 2px solid var(--accent); border-radius: 999px; padding: 10px 20px; z-index: 100; font-weight: 700; box-shadow: 0 4px 16px rgba(60,50,30,.2); max-width: 90vw; text-align: center; }
+.cat-confetti { position: fixed; top: -30px; font-size: 24px; z-index: 99; pointer-events: none; animation: cat-fall 3s linear forwards; }
+@keyframes cat-fall { to { transform: translateY(110vh) rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .travelmap .visited { transition: none; } }

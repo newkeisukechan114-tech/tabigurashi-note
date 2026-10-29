@@ -4,7 +4,7 @@ import { SITE } from '../data/site';
 <header class="site-header">
   <div class="wrap">
     <a class="logo hand" href="/">
-      <img src="/images/sumimaru.png" alt="" width="36" height="36" />
+      <img id="logo-cat" src="/images/sumimaru.png" alt="" width="36" height="36" />
       <span>{SITE.name}</span>
     </a>
     <nav>
@@ -13,3 +13,26 @@ import { SITE } from '../data/site';
     </nav>
   </div>
 </header>
+<script is:inline>
+  (function () {
+    var cat = document.getElementById('logo-cat'); if (!cat) return;
+    var n = 0, timer = null, calm = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function party() {
+      var say = document.createElement('div'); say.className = 'cat-party-say'; say.textContent = 'ニャー！ 5回も押してくれて、ありがとう🐱';
+      document.body.appendChild(say); setTimeout(function () { say.remove(); }, 3200);
+      if (calm) return;
+      var em = ['🐾', '🐱', '❤️', '🐟', '✈️'];
+      for (var i = 0; i < 24; i++) {
+        var s = document.createElement('span'); s.className = 'cat-confetti'; s.textContent = em[i % em.length];
+        s.style.left = (Math.random() * 96) + 'vw'; s.style.animationDelay = (Math.random() * 0.6) + 's'; s.style.animationDuration = (2 + Math.random() * 1.5) + 's';
+        document.body.appendChild(s); (function (x) { setTimeout(function () { x.remove(); }, 4500); })(s);
+      }
+    }
+    cat.addEventListener('click', function (e) {
+      e.preventDefault(); n++;
+      if (timer) clearTimeout(timer);
+      if (n >= 5) { n = 0; party(); return; }
+      timer = setTimeout(function () { var c = n; n = 0; if (c > 0 && location.pathname !== '/') location.href = '/'; }, 450);
+    });
+  })();
+</script>

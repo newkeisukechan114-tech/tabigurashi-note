@@ -1,0 +1,67 @@
+---
+import map from '../data/worldmap.json';
+// 歩いた20カ国の地図。国をタップすると、ひとこととリンクが出る。
+const INFO: Record<string, { name: string; slug?: string; label?: string }> = {
+  VNM: { name: 'ベトナム', slug: 'cash-card-by-country', label: 'カードが使えない場面まとめ' },
+  LAO: { name: 'ラオス', slug: 'cash-card-by-country', label: 'カードが使えない場面まとめ' },
+  THA: { name: 'タイ', slug: 'cash-card-by-country', label: 'カードが使えない場面まとめ' },
+  MYS: { name: 'マレーシア', slug: 'travel-insurance-card-kl', label: 'カード付帯の保険の話' },
+  NPL: { name: 'ネパール', slug: 'indrive-nepal-danang', label: 'InDriveの使い方' },
+  IND: { name: 'インド', slug: 'cash-card-by-country', label: 'カードが使えない場面まとめ' },
+  UZB: { name: 'ウズベキスタン', slug: 'uzbekistan-airport-city', label: 'タシケント空港から市内へ' },
+  AZE: { name: 'アゼルバイジャン' },
+  GEO: { name: 'ジョージア' },
+  TUR: { name: 'トルコ' },
+  ITA: { name: 'イタリア' },
+  ESP: { name: 'スペイン' },
+  POL: { name: 'ポーランド' },
+  AUT: { name: 'オーストリア' },
+  DEU: { name: 'ドイツ' },
+  FRA: { name: 'フランス' },
+  PER: { name: 'ペルー', slug: 'cash-card-by-country', label: 'カードが使えない場面まとめ' },
+  BOL: { name: 'ボリビア', slug: 'cash-card-by-country', label: 'カードが使えない場面まとめ' },
+  USA: { name: 'アメリカ' },
+  CHE: { name: 'スイス' },
+};
+const codes = Object.keys(INFO);
+---
+<div class="travelmap" id="travelmap">
+  <svg viewBox="0 0 800 420" role="img" aria-label="歩いた20カ国を色で示した世界地図">
+    <path class="land" d={map.land} />
+    {codes.map((c) => (
+      <path class="visited" d={(map.vis as Record<string, string>)[c]} data-code={c} data-name={INFO[c].name}
+        data-slug={INFO[c].slug ?? ''} data-label={INFO[c].label ?? ''} tabindex="0" role="button" aria-label={INFO[c].name} />
+    ))}
+    {codes.map((c) => (
+      <text class="paw" x={(map.pins as Record<string, number[]>)[c][0]} y={(map.pins as Record<string, number[]>)[c][1] + 3} text-anchor="middle" aria-hidden="true">🐾</text>
+    ))}
+  </svg>
+  <div class="map-info" id="map-info" aria-live="polite">色のついた国をタップすると、ひとこと出ます（20カ国）。</div>
+</div>
+<script is:inline>
+  (function () {
+    var root = document.getElementById('travelmap'); if (!root) return;
+    var info = document.getElementById('map-info');
+    var cur = null;
+    function pick(el) {
+      if (cur) cur.classList.remove('sel');
+      cur = el; el.classList.add('sel');
+      info.textContent = '';
+      var b = document.createElement('b'); b.textContent = el.getAttribute('data-name'); info.appendChild(b);
+      info.appendChild(document.createTextNode(' を歩きました。'));
+      var slug = el.getAttribute('data-slug');
+      if (slug) {
+        info.appendChild(document.createElement('br'));
+        var a = document.createElement('a'); a.href = '/articles/' + slug; a.textContent = '▶ ' + el.getAttribute('data-label'); info.appendChild(a);
+      } else {
+        info.appendChild(document.createElement('br'));
+        var s = document.createElement('span'); s.className = 'meta'; s.textContent = 'この国の記事は、これから書きます。'; info.appendChild(s);
+      }
+    }
+    var els = root.querySelectorAll('.visited');
+    for (var i = 0; i < els.length; i++) {
+      els[i].addEventListener('click', function () { pick(this); });
+      els[i].addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pick(this); } });
+    }
+  })();
+</script>

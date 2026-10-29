@@ -25,10 +25,12 @@ const jsonLd = {
   mainEntityOfPage: `${SITE.url}/articles/${entry.slug}`,
 };
 import ReadStamp from '../../components/ReadStamp.astro';
+import PawProgress from '../../components/PawProgress.astro';
 ---
 <Base title={d.title} description={d.description} type="article">
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <p class="crumb"><a href="/">トップ</a> ＞ <a href={`/articles?c=${d.category}`}>{cat}</a></p>
+  <PawProgress />
   <article class="post" data-cat={d.category}>
     {d.pr && <PRNotice />}
     <h1 class="hand">{d.title}</h1>
