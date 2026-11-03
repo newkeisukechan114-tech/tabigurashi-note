@@ -3,7 +3,8 @@ title: "世界一周20カ国で、バックパックに入れたもの・いら�
 description: "夫婦で世界一周（20カ国）をして、私が実際に持っていったもの、助かったもの、いらなかったものをまとめました。40Lのバックパック、7〜8kgの中身を、貴重品・日用品・服・ガジェット別に、使った場面つきで書いています。"
 category: prepare
 publishedAt: 2026-11-03
-pr: false
+updatedAt: 2026-11-03
+pr: true
 draft: false
 ---
 
@@ -63,6 +64,14 @@ draft: false
 - **サンダル（大事）：** ドミトリーや宿のシャワーで、基本的にサンダルをはきました。雨の日は、靴が濡れると乾かす必要があるので、サンダルで移動しました。
 - **メガネ一体型のサングラス（大事）：** 東南アジア、中央アジア、ヨーロッパ、アメリカで、日差しが強い日に使いました。メガネからサングラスに切り替えられて、便利でした。イタリアでは、日中にサングラスがないと、目が痛くなりました。
 - **速乾タオル（大事）：** 朝にシャワーを浴びてから移動する日に、特に役立ちます。毎回シャワーのたびに濡れて乾かすので、臭いにくく、便利でした。
+
+<div class="buy-card">
+  <p class="buy-label">私が使っているもの</p>
+  <p class="buy-name">Speedo（スピード）セームタオル</p>
+  <p class="buy-note">シャワーのあと、バックパックにつけて乾かしていました。</p>
+  <a class="buy-btn" href="https://link.amazon/B0c6Pd3Ey" target="_blank" rel="sponsored nofollow noopener">Amazonで見る <span aria-hidden="true">→</span></a>
+</div>
+
 - **爪切り（大事）：** 思ったより、爪が早く伸びるので使います。
 - **カラビナ付きのタオルホルダー（必須）：** 乾かなかったTシャツ、靴下、パンツを、バックパックにつけて乾かせます。
 - **南京錠：** ドミトリーに泊まる人は、どの国でも、ほぼ必須だと思います。
@@ -106,6 +115,14 @@ draft: false
 - **PC**
 - **充電器（スマホ・PC）：** 軽いゴム製のケースに入れると、便利でした。
 - **変換器（大事）：** 海外では、基本的に、どの国でも使います。無くしても、現地の商店で、安いものが売っています。
+
+<div class="buy-card">
+  <p class="buy-label">私が使っているもの</p>
+  <p class="buy-name">iHouse all 海外変換プラグ</p>
+  <p class="buy-note">ほとんどの国で、これ1つで使えました。</p>
+  <a class="buy-btn" href="https://link.amazon/B0408H3Za" target="_blank" rel="sponsored nofollow noopener">Amazonで見る <span aria-hidden="true">→</span></a>
+</div>
+
 - **モバイルバッテリー**
 
 ## 海外でできた友達に渡したもの
