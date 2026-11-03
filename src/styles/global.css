@@ -138,7 +138,8 @@ img { max-width: 100%; height: auto; }
 
 /* ---- 読みやすさの整え（2026-11-03）：見出しは明朝、本文は余白ゆったり ---- */
 :root { --display: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif; }
-h1, h2, h3, .sec-title { font-family: var(--display); font-weight: 700; text-wrap: balance; }
+h1, h2, h3 { font-family: var(--display); font-weight: 700; text-wrap: balance; }
+.sec-title { text-wrap: balance; }
 .hero h1 { letter-spacing: .04em; line-height: 1.5; }
 .sec-title { margin-top: 48px; letter-spacing: .04em; }
 .card h3 { font-family: var(--display); line-height: 1.6; }
@@ -164,8 +165,7 @@ h1, h2, h3, .sec-title { font-family: var(--display); font-weight: 700; text-wra
 }
 
 /* ---- トップページ・ヘッダーの整え（2026-11-03） ---- */
-.sec-title.hand { font-family: var(--display); font-weight: 700; }
-.hero h1.hand { font-family: 'Yomogi', 'Hiragino Maru Gothic ProN', 'Yu Gothic', sans-serif; font-weight: 400; }
+.sec-title.hand, .hero h1.hand { font-family: 'Yomogi', 'Hiragino Maru Gothic ProN', 'Yu Gothic', sans-serif; font-weight: 400; }
 .site-header { background: rgba(255,255,255,.82); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
 .site-header .wrap { padding-top: 10px; padding-bottom: 10px; }
 .site-header nav a { margin-left: 22px; letter-spacing: .08em; font-size: 13px; transition: color .25s; }
