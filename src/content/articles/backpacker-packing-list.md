@@ -13,7 +13,7 @@ draft: false
 ## 結論：私のバックパックは、40L・7〜8kg
 
 - バックパックは、**ミレットの登山用・40L**です。中身は、**私の分だけで7〜8kg**でした。
-- 助かったものの上位は、**サンダル、メガネ一体型サングラス、速乾タオル、カラビナ付きタオルホルダー、変換器、帽子**です。
+- 助かったものの上位は、**サンダル、メガネ一体型サングラス、速乾タオル、シャンプー・ボディソープ用ケース、カラビナ付きタオルホルダー、変換器、帽子**です。
 - いらなかったものは、**洗濯袋、圧縮袋、レインコート、アイマスク、耳栓、AirPods、ネックピロー**でした。
 - 現地で買えるもの（シャンプー、トイレットペーパー、綿棒など）は、持っていかなくて大丈夫でした。
 
@@ -70,6 +70,15 @@ draft: false
   <p class="buy-name">Speedo（スピード）セームタオル</p>
   <p class="buy-note">シャワーのあと、バックパックにつけて乾かしていました。</p>
   <a class="buy-btn" href="https://link.amazon/B0c6Pd3Ey" target="_blank" rel="sponsored nofollow noopener">Amazonで見る <span aria-hidden="true">→</span></a>
+</div>
+
+- **シャンプー・ボディソープ用のケース（必須）：** 毎日、シャワーのときに使いました。宿のシャワー室に持ち込んで、吊るして使えるので、ドミトリーでも置き場所に困りませんでした。
+
+<div class="buy-card">
+  <p class="buy-label">私が使っているもの</p>
+  <p class="buy-name">無印良品 シャンプー・ボディソープ用 吊るして使える着脱ポーチ付ケース</p>
+  <p class="buy-note">毎日、シャワーのときに使っていました。</p>
+  <a class="buy-btn" href="https://link.amazon/B0aTTNNbq" target="_blank" rel="sponsored nofollow noopener">Amazonで見る <span aria-hidden="true">→</span></a>
 </div>
 
 - **爪切り（大事）：** 思ったより、爪が早く伸びるので使います。
