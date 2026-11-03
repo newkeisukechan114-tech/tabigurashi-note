@@ -135,3 +135,30 @@ img { max-width: 100%; height: auto; }
 @keyframes cat-fall { to { transform: translateY(110vh) rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .travelmap .visited { transition: none; } }
 
+
+/* ---- 読みやすさの整え（2026-11-03）：見出しは明朝、本文は余白ゆったり ---- */
+:root { --display: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif; }
+h1, h2, h3, .sec-title { font-family: var(--display); font-weight: 700; text-wrap: balance; }
+.hero h1 { letter-spacing: .04em; line-height: 1.5; }
+.sec-title { margin-top: 48px; letter-spacing: .04em; }
+.card h3 { font-family: var(--display); line-height: 1.6; }
+.logo, .hand, .bubble, .mini-btn, .stamp { font-family: 'Yomogi', 'Hiragino Maru Gothic ProN', 'Yu Gothic', sans-serif; }
+.mini-btn, .stamp { font-weight: 400; }
+.logo { font-weight: 400; }
+
+/* 記事：1行を短く、行間と段落をゆったり */
+.post { max-width: 760px; margin-left: auto; margin-right: auto; padding: 34px 28px; }
+.post h1 { letter-spacing: .03em; line-height: 1.6; }
+.post p, .post li { line-height: 1.95; }
+.post p { margin: 0 0 1.3em; }
+.post h2 { margin: 56px 0 18px; padding: 10px 14px; line-height: 1.6; letter-spacing: .03em; }
+.post h3 { margin: 34px 0 12px; line-height: 1.6; }
+.post ul, .post ol { padding-left: 1.4em; margin: 0 0 1.4em; }
+.post li { margin-bottom: .35em; }
+.post th, .post td { padding: 11px 12px; line-height: 1.7; }
+.post table { margin: 1.2em 0 1.6em; }
+@media (max-width: 600px) {
+  .post { padding: 24px 16px; }
+  .post h2 { margin-top: 44px; }
+  .post table { font-size: 13px; }
+}
