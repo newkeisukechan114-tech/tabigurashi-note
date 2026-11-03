@@ -189,8 +189,27 @@ draft: false
 
 <p class="meta">※これは、私が世界一周で使った荷物の記録です。行く国や季節、泊まり方（ドミトリーかホテルか）で、必要なものは変わります。</p>
 
-## 次に読む記事
+## 次に読むなら、この3本
 
-- [海外でカードが使えない場面まとめ](/articles/cash-card-by-country)
-- [海外eSIMは1日いくら？世界一周で買った料金を購入履歴で公開](/articles/esim-sekaiisshu)
-- [【マレーシア】カード付帯の海外旅行保険が使えず自腹に｜クアラルンプールで発熱した話（2025年12月）](/articles/travel-insurance-card-kl)
+荷物の次に、出発前に決めておきたい「通信・お金・保険」の記事です。
+
+<div class="next-cards">
+  <a class="next-card" href="/articles/esim-sekaiisshu">
+    <span class="next-tag">通信</span>
+    <span class="next-hook">1日いくらかかった？</span>
+    <span class="next-title">海外eSIMは1日いくら？世界一周で買った料金を購入履歴で公開</span>
+    <span class="next-go">読む →</span>
+  </a>
+  <a class="next-card" href="/articles/cash-card-by-country">
+    <span class="next-tag">お金</span>
+    <span class="next-hook">カードが使えなかった場面は？</span>
+    <span class="next-title">海外でカードが使えない場面まとめ｜世界一周20カ国で現金が必要だった国と場所</span>
+    <span class="next-go">読む →</span>
+  </a>
+  <a class="next-card" href="/articles/travel-insurance-card-kl">
+    <span class="next-tag">保険</span>
+    <span class="next-hook">カード付帯の保険で、自腹になった話</span>
+    <span class="next-title">【マレーシア】カード付帯の海外旅行保険が使えず自腹に｜クアラルンプールで発熱した話</span>
+    <span class="next-go">読む →</span>
+  </a>
+</div>

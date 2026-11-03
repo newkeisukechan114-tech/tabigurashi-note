@@ -206,3 +206,16 @@ h1, h2, h3 { font-family: var(--display); font-weight: 700; text-wrap: balance; 
 .toc-title { flex: 0 0 100%; margin: 0 0 2px !important; font-size: 13px; font-weight: 700; letter-spacing: .08em; color: var(--cat, #bf6a4b); }
 .post[data-cat] .toc a { display: inline-block; background: #fff; border: 1px solid var(--cat, #bf6a4b); color: var(--cat, #bf6a4b); text-decoration: none; font-size: 14px; font-weight: 700; padding: 6px 14px; border-radius: 999px; line-height: 1.5; }
 .post[data-cat] .toc a:hover { background: var(--cat, #bf6a4b); color: #fff; }
+
+/* トップの大見出し：スマホで文の途中で折れないように */
+.hero h1 .nb { display: inline-block; }
+.hero h1 { font-size: clamp(17px, 5.4vw, 42px); }
+
+/* 次に読む記事のカード */
+.next-cards { display: grid; gap: 12px; margin: 14px 0 20px; }
+.post[data-cat] a.next-card { display: grid; gap: 3px; text-decoration: none; color: var(--ink); background: #fff; border: 1px solid var(--line); border-left: 5px solid var(--cat, #bf6a4b); border-radius: 12px; padding: 14px 16px; transition: transform .15s ease, box-shadow .15s ease; }
+.post[data-cat] a.next-card:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(60,50,30,.1); }
+.next-tag { justify-self: start; font-size: 12px; font-weight: 700; background: var(--cat-soft, #f8ebe3); color: var(--cat, #bf6a4b); border-radius: 999px; padding: 1px 10px; }
+.next-hook { font-family: var(--display); font-size: 17px; font-weight: 700; line-height: 1.6; color: var(--sumi); margin-top: 4px; }
+.next-title { font-size: 13px; color: var(--sub); line-height: 1.6; }
+.next-go { justify-self: end; font-size: 14px; font-weight: 700; color: var(--cat, #bf6a4b); }
