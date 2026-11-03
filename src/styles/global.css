@@ -164,7 +164,8 @@ h1, h2, h3, .sec-title { font-family: var(--display); font-weight: 700; text-wra
 }
 
 /* ---- トップページ・ヘッダーの整え（2026-11-03） ---- */
-.hero h1.hand, .sec-title.hand { font-family: var(--display); font-weight: 700; }
+.sec-title.hand { font-family: var(--display); font-weight: 700; }
+.hero h1.hand { font-family: 'Yomogi', 'Hiragino Maru Gothic ProN', 'Yu Gothic', sans-serif; font-weight: 400; }
 .site-header { background: rgba(255,255,255,.82); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
 .site-header .wrap { padding-top: 10px; padding-bottom: 10px; }
 .site-header nav a { margin-left: 22px; letter-spacing: .08em; font-size: 13px; transition: color .25s; }
