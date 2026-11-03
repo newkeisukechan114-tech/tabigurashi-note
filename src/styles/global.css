@@ -162,3 +162,30 @@ h1, h2, h3, .sec-title { font-family: var(--display); font-weight: 700; text-wra
   .post h2 { margin-top: 44px; }
   .post table { font-size: 13px; }
 }
+
+/* ---- トップページ・ヘッダーの整え（2026-11-03） ---- */
+.hero h1.hand, .sec-title.hand { font-family: var(--display); font-weight: 700; }
+.site-header { background: rgba(255,255,255,.82); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+.site-header .wrap { padding-top: 10px; padding-bottom: 10px; }
+.site-header nav a { margin-left: 22px; letter-spacing: .08em; font-size: 13px; transition: color .25s; }
+
+.hero { padding: 72px 0 40px; text-align: center; display: grid; justify-items: center; }
+.hero .en { font-size: 13px; letter-spacing: .32em; text-transform: uppercase; margin: 0 0 14px; }
+.hero h1 { font-size: clamp(26px, 5.6vw, 42px); line-height: 1.55; letter-spacing: .05em; margin: 0 0 18px; }
+.hero p { max-width: 34em; line-height: 1.95; margin: 0 0 26px; text-wrap: balance; }
+.hero::after { content: ""; order: 9; width: 64px; height: 1px; margin-top: 34px; background: linear-gradient(90deg, transparent, var(--line), transparent); }
+.hero .btn { padding: 13px 34px; letter-spacing: .1em; box-shadow: 0 2px 10px rgba(31,111,107,.18); transition: transform .2s, box-shadow .2s; }
+.hero .btn:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(31,111,107,.24); }
+
+.sec-title { font-size: 20px; margin: 56px 0 18px; }
+.grid { gap: 18px; }
+.card { padding: 20px 20px 18px; box-shadow: 0 1px 3px rgba(60,50,30,.04); }
+.card[data-cat] { padding-left: 24px; }
+.card h3 { font-size: 17px; margin-bottom: 8px; }
+.card .meta { letter-spacing: .04em; }
+
+/* スクロールでふわっと出る（JSが動いたときだけ） */
+.rv { opacity: 0; transform: translateY(14px); transition: opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1); }
+.rv.in { opacity: 1; transform: none; }
+.card[data-cat].rv.in { transition: opacity .7s cubic-bezier(.2,.7,.2,1), transform .15s ease, box-shadow .15s ease; }
+@media (prefers-reduced-motion: reduce) { .rv { opacity: 1; transform: none; transition: none; } }
