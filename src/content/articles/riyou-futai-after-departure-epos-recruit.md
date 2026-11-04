@@ -4,7 +4,7 @@ description: "カード付帯の海外旅行保険は「利用付帯」が増え
 category: prepare
 publishedAt: 2026-11-04
 pr: true
-draft: true
+draft: false
 ---
 
 世界一周の途中、マレーシアで熱を出して、カード付帯の海外旅行保険が使えず、[約5万3千円を自腹で払いました](/articles/travel-insurance-card-kl)。原因は、保険の条件が改定されていたのに、気づかなかったことでした。
