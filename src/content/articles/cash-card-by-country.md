@@ -3,7 +3,7 @@ title: "海外でカードが使えない場面まとめ｜世界一周20カ国�
 description: "世界一周20カ国で、カードが使えず現金が必要だった場面を、国ごとにまとめました。ATM手数料が高くて手持ちの現金で回した話、両替のコツ、持っていったカード4枚と保険の条件も、体験をもとに書いています。"
 category: prepare
 publishedAt: 2026-10-27
-pr: false
+pr: true
 draft: false
 ---
 
@@ -104,6 +104,16 @@ draft: false
 私が持っていたAmazonカードは、電話でも、条件を確認しました。
 
 カードの保険の条件は、**必ず、カード会社の公式サイトで、最新の情報を確認**してください。（私は、マレーシアで、条件を確認しておらず、保険が使えませんでした。その体験は、[はじめまして](/articles/hajimemashite)にも書いています。）
+
+4枚のうち、今から申し込むなら、エポスカードが候補になると思います。上の表のとおり、出国後に、はじめて公共交通機関の料金を払った場合も、保険が使えると書かれているからです。
+
+<div class="buy-card">
+  <p class="buy-label">広告（PR）</p>
+  <p class="buy-name">エポスカード（Visa）の案内ページ</p>
+  <a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3786766&pid=892743185" target="_blank" rel="sponsored nofollow noopener"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3786766&pid=892743185" width="250" height="250" alt="エポスカードの案内" loading="lazy" style="border:0"></a>
+  <p class="buy-note">初めて申し込む方が対象です。日本にいるうちに、お申し込みください。年会費と保険の最新の条件は、申し込む前に公式ページで確認してください。</p>
+  <a class="buy-btn" href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3786766&pid=892743185" target="_blank" rel="sponsored nofollow noopener">エポスカードの案内を見る <span aria-hidden="true">→</span></a>
+</div>
 
 ## Revolut：契約しておけばよかったと思ったこと
 
