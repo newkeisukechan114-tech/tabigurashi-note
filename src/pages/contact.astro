@@ -1,15 +1,64 @@
 ---
 import Base from '../layouts/Base.astro';
 import { SITE } from '../data/site';
+const key = SITE.contactFormKey;
 ---
 <Base title="お問い合わせ" description="たびぐらしノートへのお問い合わせ">
   <article class="post">
     <h1 class="hand">お問い合わせ</h1>
-    <p>記事へのご意見・ご質問は、下のフォームからお送りください。</p>
-    {SITE.contactFormUrl ? (
-      <p><a class="btn" href={SITE.contactFormUrl} rel="noopener" target="_blank">お問い合わせフォームを開く</a></p>
+    <p>記事へのご意見・ご質問は、下のフォームからお送りください。いただいた内容は、運営者のメールに届きます。返信までに、数日いただくことがあります。</p>
+    {key ? (
+      <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value={key} />
+        <input type="hidden" name="subject" value="【たびぐらしノート】お問い合わせがありました" />
+        <input type="hidden" name="from_name" value="たびぐらしノート" />
+        <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+        <label>お名前<span class="req">必須</span>
+          <input type="text" name="name" required maxlength="100" autocomplete="name" />
+        </label>
+        <label>メールアドレス<span class="req">必須</span>
+          <input type="email" name="email" required maxlength="200" autocomplete="email" />
+        </label>
+        <label>お問い合わせ内容<span class="req">必須</span>
+          <textarea name="message" rows="7" required maxlength="5000"></textarea>
+        </label>
+        <p class="form-note">送信すると、<a href="/privacy">プライバシーポリシー</a>に同意したものとみなします。</p>
+        <button type="submit" class="btn">送信する</button>
+        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+      </form>
     ) : (
       <p class="pr-note">お問い合わせフォームは準備中です。当面は、各SNSのメッセージからご連絡ください。</p>
     )}
   </article>
 </Base>
+
+<script>
+  const form = document.getElementById('contact-form') as HTMLFormElement | null;
+  const status = document.getElementById('form-status');
+  if (form && status) {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const btn = form.querySelector('button[type="submit"]') as HTMLButtonElement;
+      btn.disabled = true;
+      status.textContent = '送信しています…';
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          headers: { Accept: 'application/json' },
+          body: new FormData(form),
+        });
+        const data = await res.json();
+        if (res.ok && data.success) {
+          form.reset();
+          status.textContent = '送信しました。お問い合わせ、ありがとうございます。';
+        } else {
+          status.textContent = '送信できませんでした。時間をおいて、もう一度お試しください。';
+        }
+      } catch {
+        status.textContent = '送信できませんでした。通信状況を確認して、もう一度お試しください。';
+      } finally {
+        btn.disabled = false;
+      }
+    });
+  }
+</script>

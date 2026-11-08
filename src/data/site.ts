@@ -12,8 +12,9 @@ export const SITE = {
     threads: 'https://www.threads.com/@sumimaru_note',
     note: 'https://note.com/sumimaru_note',
   },
-  // お問い合わせ（Googleフォームを作ったらURLを入れる）
-  contactFormUrl: '',
+  // お問い合わせフォーム（Web3Forms）のアクセスキー。空のときは「準備中」と表示します。
+  // キーは公開しても問題ない仕組みです（送信先のメールアドレスはページに出ません）。
+  contactFormKey: '',
 };
 
 export const CATEGORIES = [
