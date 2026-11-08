@@ -126,6 +126,7 @@ Amazon Mastercard（私が持っていたのは、クラシック）は、三井
 <div class="buy-card">
   <p class="buy-label">広告（PR）</p>
   <p class="buy-name">エポスカード（Visa）の案内ページ</p>
+  <a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3786766&pid=892743185" target="_blank" rel="sponsored nofollow noopener"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3786766&pid=892743185" width="250" height="250" alt="エポスカードの案内" loading="lazy" style="border:0"></a>
   <p class="buy-note">日本にいるうちに、初めて申し込む方が対象です。保険の条件は、申し込む前に公式ページで確認してください。</p>
   <a class="buy-btn" href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3786766&pid=892740485" target="_blank" rel="sponsored nofollow noopener">エポスカードの案内を見る <span aria-hidden="true">→</span></a>
 </div>
