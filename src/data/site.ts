@@ -14,7 +14,7 @@ export const SITE = {
   },
   // お問い合わせフォーム（Web3Forms）のアクセスキー。空のときは「準備中」と表示します。
   // キーは公開しても問題ない仕組みです（送信先のメールアドレスはページに出ません）。
-  contactFormKey: '',
+  contactFormKey: '00f8d4be-fcc3-4a17-8d98-4f2a84f3b8be',
 };
 
 export const CATEGORIES = [
