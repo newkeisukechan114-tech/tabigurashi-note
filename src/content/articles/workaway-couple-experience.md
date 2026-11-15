@@ -135,6 +135,6 @@ draft: true
 
 ## 次に読む記事
 
-- [夫婦で世界一周、持ち物リスト](/articles/backpacker-packing-list)：長い旅で、実際に持っていったものをまとめています。
+- [世界一周20カ国で、バックパックに入れたもの](/articles/backpacker-packing-list)：長い旅で、実際に持っていったものをまとめています。
 - [カード付帯の海外旅行保険が使えず自腹になった話](/articles/travel-insurance-card-kl)：マレーシアで熱を出したときの話です。
 - [海外eSIMは1日いくら？](/articles/esim-sekaiisshu)：ホストとの連絡には、ネットが欠かせませんでした。
