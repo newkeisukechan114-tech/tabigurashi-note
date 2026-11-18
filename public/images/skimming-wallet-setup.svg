@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 450" role="img" aria-label="世界一周中のカードの持ち方。ウエストポーチの中に、保険用のカード4枚を入れた財布と、普段使いのカード1枚を入れた財布を分けて入れた。カードは1枚ずつスキミング防止ケースに入れた。別にダミー財布も持った">
+<style>text{font-family:"Hiragino Sans","Noto Sans JP","Noto Sans CJK JP","Yu Gothic","Meiryo",sans-serif;fill:#2b2b2b}.sub{fill:#5f5f5f}</style>
+<rect width="340" height="450" fill="#ffffff"/>
+<text x="12" y="26" font-size="16" font-weight="700">世界一周中のカードの持ち方</text>
+<text x="12" y="47" font-size="13" class="sub">私の場合・カードは1枚ずつケースに入れた</text>
+<rect x="12" y="64" width="316" height="252" rx="16" fill="#faf7f2" stroke="#c9bfae" stroke-width="2"/>
+<text x="28" y="90" font-size="14" font-weight="700">ウエストポーチ</text>
+<rect x="28" y="104" width="284" height="96" rx="10" fill="#e5f0ed" stroke="#2e6f6a"/>
+<text x="42" y="128" font-size="14" font-weight="700">財布①　保険用のカード 4枚</text>
+<g fill="#ffffff" stroke="#8a9a98"><rect x="42" y="142" width="58" height="40" rx="4"/><rect x="108" y="142" width="58" height="40" rx="4"/><rect x="174" y="142" width="58" height="40" rx="4"/><rect x="240" y="142" width="58" height="40" rx="4"/></g>
+<g fill="#c7cfce"><rect x="46" y="146" width="50" height="32" rx="3"/><rect x="112" y="146" width="50" height="32" rx="3"/><rect x="178" y="146" width="50" height="32" rx="3"/><rect x="244" y="146" width="50" height="32" rx="3"/></g>
+<rect x="28" y="212" width="284" height="92" rx="10" fill="#e5f0ed" stroke="#2e6f6a"/>
+<text x="42" y="236" font-size="14" font-weight="700">財布②　普段使いのカード 1枚</text>
+<rect x="42" y="250" width="58" height="40" rx="4" fill="#ffffff" stroke="#8a9a98"/><rect x="46" y="254" width="50" height="32" rx="3" fill="#c7cfce"/>
+<text x="112" y="268" font-size="12" class="sub">毎日の支払いは</text>
+<text x="112" y="286" font-size="12" class="sub">この1枚にまとめた</text>
+<rect x="12" y="330" width="316" height="62" rx="12" fill="#fbece8" stroke="#c8553d"/>
+<text x="28" y="355" font-size="14" font-weight="700" style="fill:#c8553d">ダミー財布（強盗に差し出す用）</text>
+<text x="28" y="378" font-size="12.5">期限切れのデビットカード、ほかの国の安いお金</text>
+<rect x="18" y="408" width="14" height="10" rx="2" fill="#c7cfce" stroke="#8a9a98"/>
+<text x="38" y="418" font-size="12" class="sub">＝スキミング防止ケースに入れたカード</text>
+</svg>
