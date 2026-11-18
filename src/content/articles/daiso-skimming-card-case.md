@@ -98,6 +98,7 @@ draft: false
 
 ## 次に読む記事
 
+- [海外のタクシーでぼったくられないために、私がやったこと](/articles/taxi-overcharge-tips)：旅の安全の話です。4か国で、配車アプリと相場の調べ方を使い分けました。
 - [世界一周20カ国で、バックパックに入れたもの](/articles/backpacker-packing-list)：財布やカードのほかに、持っていったものをまとめています。
 - [海外でカードが使えない場面まとめ](/articles/cash-card-by-country)：カードを分けて持った理由にもつながる話です。
 - [海外旅行保険の「利用付帯」、出国後でも間に合うカード・間に合わないカード](/articles/riyou-futai-after-departure-epos-recruit)：保険用の4枚の条件を比べました。
