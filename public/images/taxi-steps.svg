@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 490" role="img" aria-label="海外でタクシーに乗るときの手順。空港や駅で声をかけてくる人にはついていかない。配車アプリが使える国なら、アプリで呼ぶ。使えない場合は、アプリで相場を見て上限を決め、行き先と片道と金額を伝えて交渉する。違ったら降りて別の車を探す">
+<style>text{font-family:"Hiragino Sans","Noto Sans JP","Noto Sans CJK JP","Yu Gothic","Meiryo",sans-serif;fill:#2b2b2b}.sub{fill:#5f5f5f}.w{fill:#fff}</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2e6f6a"/></marker></defs>
+<rect width="340" height="490" fill="#fff"/>
+<text x="12" y="26" font-size="16" font-weight="700">タクシーに乗るときの手順</text>
+<text x="12" y="47" font-size="13" class="sub">私が4か国でやっていたこと</text>
+<rect x="12" y="62" width="316" height="58" rx="12" fill="#fbece8" stroke="#c8553d"/>
+<text x="170" y="87" font-size="14" font-weight="700" text-anchor="middle" style="fill:#c8553d">空港・駅で声をかけてくる人には</text>
+<text x="170" y="108" font-size="14" font-weight="700" text-anchor="middle" style="fill:#c8553d">ついていかない</text>
+<line x1="170" y1="122" x2="170" y2="146" stroke="#2e6f6a" stroke-width="2" marker-end="url(#a)"/>
+<rect x="62" y="150" width="216" height="44" rx="22" fill="#2e6f6a"/>
+<text x="170" y="177" font-size="14" font-weight="700" text-anchor="middle" class="w">配車アプリが使える？</text>
+<line x1="120" y1="196" x2="80" y2="226" stroke="#2e6f6a" stroke-width="2" marker-end="url(#a)"/>
+<line x1="220" y1="196" x2="260" y2="226" stroke="#2e6f6a" stroke-width="2" marker-end="url(#a)"/>
+<text x="84" y="214" font-size="12" class="sub" text-anchor="end">使える</text>
+<text x="256" y="214" font-size="12" class="sub">使えない・</text>
+<text x="256" y="228" font-size="12" class="sub" dx="14">流しの車</text>
+<rect x="12" y="232" width="150" height="120" rx="12" fill="#e5f0ed" stroke="#2e6f6a"/>
+<text x="87" y="260" font-size="14" font-weight="700" text-anchor="middle">アプリで呼ぶ</text>
+<text x="87" y="286" font-size="12" text-anchor="middle">乗る前に</text>
+<text x="87" y="304" font-size="12" text-anchor="middle">値段が決まる</text>
+<text x="87" y="332" font-size="11.5" text-anchor="middle" class="sub">InDrive・Yandex Go</text>
+<rect x="178" y="240" width="150" height="214" rx="12" fill="#e5f0ed" stroke="#2e6f6a"/>
+<g font-size="12.5">
+<circle cx="196" cy="268" r="10" fill="#2e6f6a"/><text x="196" y="272" text-anchor="middle" font-weight="700" class="w">1</text>
+<text x="212" y="264">アプリで</text><text x="212" y="281">相場を見る</text>
+<circle cx="196" cy="320" r="10" fill="#2e6f6a"/><text x="196" y="324" text-anchor="middle" font-weight="700" class="w">2</text>
+<text x="212" y="316">その金額を</text><text x="212" y="333">上限にする</text>
+<circle cx="196" cy="372" r="10" fill="#2e6f6a"/><text x="196" y="376" text-anchor="middle" font-weight="700" class="w">3</text>
+<text x="212" y="368">行き先・片道</text><text x="212" y="385">・金額を伝える</text>
+<circle cx="196" cy="424" r="10" fill="#c8553d"/><text x="196" y="428" text-anchor="middle" font-weight="700" class="w">4</text>
+<text x="212" y="420" style="fill:#c8553d" font-weight="700">違ったら</text><text x="212" y="437" style="fill:#c8553d" font-weight="700">降りて別の車へ</text>
+</g>
+<text x="12" y="480" font-size="11.5" class="sub">相場を見るのに使ったのは、Uberのアプリ</text>
+</svg>
